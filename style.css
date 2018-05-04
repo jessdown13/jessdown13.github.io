@@ -1,0 +1,149 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: #F7F7F7;
+    /* Old browsers */
+    background: -moz-linear-gradient(45deg, #F7F7F7 0%, #EAE0D5 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(45deg, #F7F7F7 0%, #EAE0D5 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(45deg, #F7F7F7 0%, #EAE0D5 100%);
+  }
+  
+  /** Header styles **/
+  .header {
+    background-image: url(https://lh3.googleusercontent.com/MUvFjwRqQt0qh-u6SLQqNjwC1PDs4e8XVpcKE5R8SPwQyBzFh3ILFL1xqdGml-aoixNcfedIrEAy0TI39sXlzuv2HadONAW3JmX_VB62Ln6NpRGeXc2D0rv42_baezvfe-SphPCiCCs0lPOLfHF_hvoLRK5cU86-43v02BLKGg7pyy0mya_aJVf_8x9fMlbkOElO5TPK-3YZPk8SW7SBDRWVmNMcyfQoqgXnl6k-HkMPx2eeSNIHru7slAxAXRl_x5UI8c-aIFQEw-U30j2XlzhTNH7zI-73ytqIZ8NGIKcmyLGz218yw8gAgGNTuL2GKuzTdY-FzMz8BHIoAM6QWvP7fpFgGoNeTFpXFR_5dfQJQdZoei2DPNg4VdoGK1v5KT1G6KrwE6xg9A-xK0FEiQ0aqtnZVK3JWDERPezou6q_BSLyt7zd3Hd3CzEb06lDbvjbwb6jyJB4EJ8dPiIUbnFrvxdNJXfUCDD1pJNn0NL7F46ciphzqVwsI35ZvR3g2lBzB1hidETEn8vCLFUiytbfJMmb_49H0FdsKv44n4W-jhJvrRkW37Mlg3U-DSgupvi45UzOwhG9ea2hWwJzlXbRUAQx6N2oMYlPGw=s640-no);
+    height: 400px;
+    background-position: center center;
+  }
+  
+  .roasting {
+    margin: 40px auto;
+    padding: 20px 30px 40px 30px;
+    background-color: white;
+    overflow: auto;
+    width: 75%;
+    border-radius: 4px;
+    align-self: center;
+  }
+  
+  .roasting p {
+    color: #938E89;
+    text-align: center;
+    line-height: 24px;
+    font-family: 'Skranji', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  
+  .spectrum div {
+    font: inherit;
+    padding: 0 20px;
+    color: #FFFFFF;
+    overflow: auto;
+    opacity: 0.9;
+  }
+  
+  .spectrum p {
+    color: #FFFFFF;
+    text-align: left;
+  }
+  
+  /* Roast types */
+  .green {
+    background-color: #9bb49b;
+  }
+  
+  .light {
+    background-color: #766f6c;
+  }
+  
+  .city {
+    background-color: #ef6502;
+  }
+  
+  .vienna {
+    background-color: Brown;
+  }
+  
+  .italian {
+    background-color: Black;
+  }
+  
+  /* Typography */
+  h1 {
+    color: #235ecc;
+    font-family: 'Covered By Your Grace', sans-serif;
+    font-size: 100px;
+    line-height: 76px;
+    margin: 0;
+    position: relative;
+    text-align: left;
+    top: 20%;
+  }
+  
+  h2 {
+    color: #E4BB97;
+    font-family: 'Raleway', sans-serif;
+    font-size: 28px;
+    font-weight: 500;
+    text-align: left;
+    text-transform: uppercase;
+  }
+  
+  h3 {
+    color: #db2b41;
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    text-align: center;
+  }
+  
+  h4 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: .2em;
+  }
+  
+  h5 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    line-height: .2em;
+    font-weight: 300;
+  }
+  
+  /* Page elements */
+  ul {
+    margin: 0 auto;
+    padding: 0;
+    width: 75%;
+  }
+  
+  li {
+    border-bottom: 1px solid #E4BB97;
+    list-style: none;
+    margin: 100px 0px;
+    padding-bottom: 60px;
+  }
+  
+  p {
+    color: #235ecc;
+    line-height: 32px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    text-align: center;
+  }
+  
+  a {
+    color: #214E34;
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    font-weight: 900;
+    text-align: left;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+  }
+  
